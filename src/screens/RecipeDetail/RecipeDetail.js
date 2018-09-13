@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Modal, View, Image, Text, Button, StyleSheet, TouchableOpacity } from 'react-native';
+import { Modal, View, Image, Text, Button
+    , StyleSheet, TouchableOpacity, Platform } from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
 import { connect } from 'react-redux';
 import { deleteRecipe } from '../../store/actions/index';
@@ -22,7 +23,7 @@ class recipeDetail extends Component {
                     <View style={styles.deleteButton}>
                         <Icon 
                         size={30} 
-                        name="ios-trash"
+                        name={Platform.OS === 'android' ? 'md-trash' : 'ios-trash'}
                         color="red" />
                     </View>
                     </TouchableOpacity>
