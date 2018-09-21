@@ -5,8 +5,10 @@ import DefaultInput from '../UI/DefaultInput/DefaultInput';
 const recipeInput = props => (
     <DefaultInput 
         placeholder="Recipe Name" 
-        value={props.recipeName} 
-        onChangeText={props.onChangeText} />
+        value={props.recipeData.value} 
+        onChangeText={props.onChangeText}
+        valid={props.recipeData.valid}
+        touched={props.recipeData.touched} />
 );
 
 export default recipeInput;

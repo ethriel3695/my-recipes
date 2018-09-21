@@ -1,146 +1,343 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml:1:1-26:12
+ADDED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml:1:1-32:12
+INJECTED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml:1:1-32:12
+INJECTED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml:1:1-32:12
+INJECTED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml:1:1-32:12
+MERGED from [:react-native-navigation] C:\Users\ethri\source\recipes\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-20:12
+MERGED from [:react-native-vector-icons] C:\Users\ethri\source\recipes\node_modules\react-native-vector-icons\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-image-picker] C:\Users\ethri\source\recipes\node_modules\react-native-image-picker\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-23:12
+MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\21fe95b163158a44179239c4a5297b85\AndroidManifest.xml:2:1-15:12
+MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\material-menu-toolbar-1.5.4.aar\c4782c49d26e4df2fa245a032326fdca\AndroidManifest.xml:2:1-14:12
+MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\ahbottomnavigation-2.0.6.aar\ff2414ffba82b8534dc2a0a8a08d95ae\AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:design:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\cc8b268420a2ed0732c1b1fe481cb930\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\8e248437d21ded2af679c3dba7632d56\AndroidManifest.xml:17:1-31:12
+MERGED from [:react-native-maps] C:\Users\ethri\source\recipes\node_modules\react-native-maps\lib\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-12:12
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\play-services-maps-10.0.1.aar\5f46f315e8690a0be1cb308292a19262\AndroidManifest.xml:16:1-25:12
+MERGED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\play-services-base-10.0.1.aar\526f3bfdda46a18327fa7e059f0a6c4d\AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\play-services-tasks-10.0.1.aar\7bdd2903e5c14c19d9d31c9ecc93e409\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.0.1.aar\91dff245856b133a3936212881f566c0\AndroidManifest.xml:16:1-23:12
+MERGED from [com.android.support:transition:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\798b5d647a0c51ed577ef135fe8d4641\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\b620f661abfd9db611e8bb62ff445a88\AndroidManifest.xml:17:1-31:12
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\textlayoutbuilder-1.0.0.aar\5450d557646ff097bb8a885c83e1a473\AndroidManifest.xml:10:1-18:12
+MERGED from [com.facebook.fresco:fresco:1.3.0] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\fresco-1.3.0.aar\d2163e278dfc34745e25a63edc631c14\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-1.3.0.aar\30297dc5d0c344a9ae5ce98d05e6baa2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.1.0] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\soloader-0.1.0.aar\87cc9c5894cb217845d3118917293f1e\AndroidManifest.xml:1:1-4:12
+MERGED from [org.webkit:android-jsc:r174650] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\android-jsc-r174650.aar\27e547d38eb5b36ca0608354e5432761\AndroidManifest.xml:1:1-3:12
+MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\android-maps-utils-0.5.aar\09fe57921436fc66ef926bc6f66f1124\AndroidManifest.xml:2:1-13:12
+MERGED from [com.facebook.fresco:drawee:1.3.0] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\drawee-1.3.0.aar\8a762df0c57c3a7c9fd0caf07a3ac753\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.3.0.aar\fd91963640f8f58fa6a06e1067e075eb\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.3.0.aar\686a8887533dc5c4d5554ffebae83859\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fbcore:1.3.0] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\fbcore-1.3.0.aar\e63af260e7c2af057858c17137fe908c\AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\60de521326f9e8173640c2bc54f8aca3\AndroidManifest.xml:17:1-26:12
+MERGED from [com.balysv.materialmenu:material-menu:1.5.4] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\material-menu-1.5.4.aar\14969bcebb4b3056f87e11ac0cca82f7\AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\b8ae28d944d7d28fb33b961de881453e\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\81aaccbdbc9f76c0deb1d78826ee3314\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\0f907d860c222d09dc8252e9bb494a8f\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\b9eec1b6582b4ddc0306ac7f5c9e834c\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\37a132af3709b0683bf7ce25187e6fe1\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\596e94da2e8b46daa4f0f6aa53221860\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\ae722ae4e47695f33f65ca63a32bf891\AndroidManifest.xml:17:1-31:12
+INJECTED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml:1:1-32:12
+INJECTED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml:1:1-32:12
+INJECTED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml:1:1-32:12
 	package
 		ADDED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml:2:5-28
 		INJECTED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml:1:1-32:12
+		INJECTED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml:1:1-32:12
 		INJECTED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml:1:11-69
-	android:versionCode
-		INJECTED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.INTERNET
 ADDED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml:4:5-67
+MERGED from [:react-native-maps] C:\Users\ethri\source\recipes\node_modules\react-native-maps\lib\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:9:5-67
+MERGED from [:react-native-maps] C:\Users\ethri\source\recipes\node_modules\react-native-maps\lib\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:9:5-67
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\play-services-maps-10.0.1.aar\5f46f315e8690a0be1cb308292a19262\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\play-services-maps-10.0.1.aar\5f46f315e8690a0be1cb308292a19262\AndroidManifest.xml:20:5-66
 	android:name
 		ADDED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml:4:22-64
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
 ADDED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml:5:5-77
-MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\ethri\source\recipes\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.55.4\AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\21fe95b163158a44179239c4a5297b85\AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\21fe95b163158a44179239c4a5297b85\AndroidManifest.xml:11:5-78
 	android:name
 		ADDED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml:5:22-75
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml:6:5-78
+	android:name
+		ADDED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml:6:22-76
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml:7:5-65
+	android:name
+		ADDED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml:7:22-62
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml:8:5-80
+	android:name
+		ADDED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml:8:22-78
 application
-ADDED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml:7:5-24:19
-MERGED from [myrecipes:react-native-navigation:unspecified] C:\Users\ethri\source\recipes\android\app\build\intermediates\exploded-aar\myrecipes\react-native-navigation\unspecified\AndroidManifest.xml:11:5-18:19
-MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\ethri\source\recipes\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.55.4\AndroidManifest.xml:13:5-20
-MERGED from [com.facebook.soloader:soloader:0.1.0] C:\Users\ethri\source\recipes\android\app\build\intermediates\exploded-aar\com.facebook.soloader\soloader\0.1.0\AndroidManifest.xml:3:3-17
-MERGED from [org.webkit:android-jsc:r174650] C:\Users\ethri\source\recipes\android\app\build\intermediates\exploded-aar\org.webkit\android-jsc\r174650\AndroidManifest.xml:2:3-17
-MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] C:\Users\ethri\source\recipes\android\app\build\intermediates\exploded-aar\com.aurelhubert\ahbottomnavigation\2.0.6\AndroidManifest.xml:11:5-20
-MERGED from [com.android.support:design:25.3.1] C:\Users\ethri\source\recipes\android\app\build\intermediates\exploded-aar\com.android.support\design\25.3.1\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:transition:25.3.1] C:\Users\ethri\source\recipes\android\app\build\intermediates\exploded-aar\com.android.support\transition\25.3.1\AndroidManifest.xml:26:5-20
-MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] C:\Users\ethri\source\recipes\android\app\build\intermediates\exploded-aar\com.balysv.materialmenu\material-menu-toolbar\1.5.4\AndroidManifest.xml:12:5-20
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\ethri\source\recipes\android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.3.1\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\ethri\source\recipes\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.3.1\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\ethri\source\recipes\android\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.3.1\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\ethri\source\recipes\android\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.3.1\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\ethri\source\recipes\android\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.3.1\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\ethri\source\recipes\android\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.3.1\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\ethri\source\recipes\android\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.3.1\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\ethri\source\recipes\android\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.3.1\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\ethri\source\recipes\android\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.3.1\AndroidManifest.xml:29:5-20
-MERGED from [com.balysv.materialmenu:material-menu:1.5.4] C:\Users\ethri\source\recipes\android\app\build\intermediates\exploded-aar\com.balysv.materialmenu\material-menu\1.5.4\AndroidManifest.xml:12:5-20
+ADDED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml:10:5-30:19
+MERGED from [:react-native-navigation] C:\Users\ethri\source\recipes\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-18:19
+MERGED from [:react-native-navigation] C:\Users\ethri\source\recipes\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-18:19
+MERGED from [:react-native-image-picker] C:\Users\ethri\source\recipes\node_modules\react-native-image-picker\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-21:19
+MERGED from [:react-native-image-picker] C:\Users\ethri\source\recipes\node_modules\react-native-image-picker\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-21:19
+MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\21fe95b163158a44179239c4a5297b85\AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\21fe95b163158a44179239c4a5297b85\AndroidManifest.xml:13:5-20
+MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\material-menu-toolbar-1.5.4.aar\c4782c49d26e4df2fa245a032326fdca\AndroidManifest.xml:12:5-20
+MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\material-menu-toolbar-1.5.4.aar\c4782c49d26e4df2fa245a032326fdca\AndroidManifest.xml:12:5-20
+MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\ahbottomnavigation-2.0.6.aar\ff2414ffba82b8534dc2a0a8a08d95ae\AndroidManifest.xml:11:5-20
+MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\ahbottomnavigation-2.0.6.aar\ff2414ffba82b8534dc2a0a8a08d95ae\AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:design:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\cc8b268420a2ed0732c1b1fe481cb930\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:design:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\cc8b268420a2ed0732c1b1fe481cb930\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\8e248437d21ded2af679c3dba7632d56\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\8e248437d21ded2af679c3dba7632d56\AndroidManifest.xml:29:5-20
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\play-services-maps-10.0.1.aar\5f46f315e8690a0be1cb308292a19262\AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\play-services-maps-10.0.1.aar\5f46f315e8690a0be1cb308292a19262\AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\play-services-base-10.0.1.aar\526f3bfdda46a18327fa7e059f0a6c4d\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\play-services-base-10.0.1.aar\526f3bfdda46a18327fa7e059f0a6c4d\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\play-services-tasks-10.0.1.aar\7bdd2903e5c14c19d9d31c9ecc93e409\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\play-services-tasks-10.0.1.aar\7bdd2903e5c14c19d9d31c9ecc93e409\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.0.1.aar\91dff245856b133a3936212881f566c0\AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.0.1.aar\91dff245856b133a3936212881f566c0\AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:transition:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\798b5d647a0c51ed577ef135fe8d4641\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\798b5d647a0c51ed577ef135fe8d4641\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\b620f661abfd9db611e8bb62ff445a88\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\b620f661abfd9db611e8bb62ff445a88\AndroidManifest.xml:29:5-20
+MERGED from [com.facebook.soloader:soloader:0.1.0] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\soloader-0.1.0.aar\87cc9c5894cb217845d3118917293f1e\AndroidManifest.xml:3:3-17
+MERGED from [com.facebook.soloader:soloader:0.1.0] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\soloader-0.1.0.aar\87cc9c5894cb217845d3118917293f1e\AndroidManifest.xml:3:3-17
+MERGED from [org.webkit:android-jsc:r174650] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\android-jsc-r174650.aar\27e547d38eb5b36ca0608354e5432761\AndroidManifest.xml:2:3-17
+MERGED from [org.webkit:android-jsc:r174650] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\android-jsc-r174650.aar\27e547d38eb5b36ca0608354e5432761\AndroidManifest.xml:2:3-17
+MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\android-maps-utils-0.5.aar\09fe57921436fc66ef926bc6f66f1124\AndroidManifest.xml:7:5-11:19
+MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\android-maps-utils-0.5.aar\09fe57921436fc66ef926bc6f66f1124\AndroidManifest.xml:7:5-11:19
+MERGED from [com.balysv.materialmenu:material-menu:1.5.4] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\material-menu-1.5.4.aar\14969bcebb4b3056f87e11ac0cca82f7\AndroidManifest.xml:12:5-20
+MERGED from [com.balysv.materialmenu:material-menu:1.5.4] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\material-menu-1.5.4.aar\14969bcebb4b3056f87e11ac0cca82f7\AndroidManifest.xml:12:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\b8ae28d944d7d28fb33b961de881453e\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\b8ae28d944d7d28fb33b961de881453e\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\81aaccbdbc9f76c0deb1d78826ee3314\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\81aaccbdbc9f76c0deb1d78826ee3314\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\0f907d860c222d09dc8252e9bb494a8f\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\0f907d860c222d09dc8252e9bb494a8f\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\b9eec1b6582b4ddc0306ac7f5c9e834c\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\b9eec1b6582b4ddc0306ac7f5c9e834c\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\37a132af3709b0683bf7ce25187e6fe1\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\37a132af3709b0683bf7ce25187e6fe1\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\596e94da2e8b46daa4f0f6aa53221860\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\596e94da2e8b46daa4f0f6aa53221860\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\ae722ae4e47695f33f65ca63a32bf891\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\ae722ae4e47695f33f65ca63a32bf891\AndroidManifest.xml:29:5-20
 	android:label
-		ADDED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml:9:7-39
-	android:allowBackup
-		ADDED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml:11:7-34
+		ADDED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml:12:7-39
 	android:icon
-		ADDED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml:10:7-41
+		ADDED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml:13:7-41
+	android:allowBackup
+		ADDED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml:14:7-34
 	android:theme
-		ADDED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml:12:7-38
+		ADDED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml:15:7-38
 	android:name
-		ADDED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml:8:7-38
+		ADDED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml:11:7-38
 activity#com.myrecipes.MainActivity
-ADDED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml:13:7-22:18
+ADDED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml:16:7-25:18
 	android:label
-		ADDED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml:15:9-41
+		ADDED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml:18:9-41
 	android:windowSoftInputMode
-		ADDED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml:17:9-51
+		ADDED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml:20:9-51
 	android:configChanges
-		ADDED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml:16:9-79
+		ADDED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml:19:9-79
 	android:name
-		ADDED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml:14:9-37
-intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml:18:9-21:25
+		ADDED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml:17:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml:21:9-24:25
 action#android.intent.action.MAIN
-ADDED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml:19:13-65
+ADDED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml:22:13-65
 	android:name
-		ADDED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml:19:21-62
+		ADDED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml:22:21-62
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml:20:13-73
+ADDED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml:23:13-73
 	android:name
-		ADDED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml:20:23-70
+		ADDED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml:23:23-70
 activity#com.facebook.react.devsupport.DevSettingsActivity
-ADDED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml:23:7-84
-MERGED from [myrecipes:react-native-navigation:unspecified] C:\Users\ethri\source\recipes\android\app\build\intermediates\exploded-aar\myrecipes\react-native-navigation\unspecified\AndroidManifest.xml:15:9-17:40
+ADDED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml:26:7-84
+MERGED from [:react-native-navigation] C:\Users\ethri\source\recipes\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:9-17:40
+MERGED from [:react-native-navigation] C:\Users\ethri\source\recipes\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:9-17:40
 	android:exported
-		ADDED from [myrecipes:react-native-navigation:unspecified] C:\Users\ethri\source\recipes\android\app\build\intermediates\exploded-aar\myrecipes\react-native-navigation\unspecified\AndroidManifest.xml:17:13-37
+		ADDED from [:react-native-navigation] C:\Users\ethri\source\recipes\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:17:13-37
 	android:name
-		ADDED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml:23:17-81
+		ADDED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml:26:17-81
+meta-data#com.google.android.geo.API_KEY
+ADDED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml:27:7-29:66
+	android:value
+		ADDED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml:29:9-64
+	android:name
+		ADDED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml:28:9-54
 uses-sdk
 INJECTED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [myrecipes:react-native-vector-icons:unspecified] C:\Users\ethri\source\recipes\android\app\build\intermediates\exploded-aar\myrecipes\react-native-vector-icons\unspecified\AndroidManifest.xml:7:5-9:41
-MERGED from [myrecipes:react-native-navigation:unspecified] C:\Users\ethri\source\recipes\android\app\build\intermediates\exploded-aar\myrecipes\react-native-navigation\unspecified\AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\ethri\source\recipes\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.55.4\AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] C:\Users\ethri\source\recipes\android\app\build\intermediates\exploded-aar\com.facebook.fbui.textlayoutbuilder\textlayoutbuilder\1.0.0\AndroidManifest.xml:14:5-16:41
-MERGED from [com.facebook.fresco:fresco:1.3.0] C:\Users\ethri\source\recipes\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fresco\1.3.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:1.3.0] C:\Users\ethri\source\recipes\android\app\build\intermediates\exploded-aar\com.facebook.fresco\drawee\1.3.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] C:\Users\ethri\source\recipes\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-okhttp3\1.3.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:1.3.0] C:\Users\ethri\source\recipes\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline\1.3.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] C:\Users\ethri\source\recipes\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-base\1.3.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:1.3.0] C:\Users\ethri\source\recipes\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\1.3.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.soloader:soloader:0.1.0] C:\Users\ethri\source\recipes\android\app\build\intermediates\exploded-aar\com.facebook.soloader\soloader\0.1.0\AndroidManifest.xml:2:3-70
-MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] C:\Users\ethri\source\recipes\android\app\build\intermediates\exploded-aar\com.aurelhubert\ahbottomnavigation\2.0.6\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:design:25.3.1] C:\Users\ethri\source\recipes\android\app\build\intermediates\exploded-aar\com.android.support\design\25.3.1\AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\ethri\source\recipes\android\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.3.1\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:transition:25.3.1] C:\Users\ethri\source\recipes\android\app\build\intermediates\exploded-aar\com.android.support\transition\25.3.1\AndroidManifest.xml:20:5-44
-MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] C:\Users\ethri\source\recipes\android\app\build\intermediates\exploded-aar\com.balysv.materialmenu\material-menu-toolbar\1.5.4\AndroidManifest.xml:8:5-10:41
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\ethri\source\recipes\android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.3.1\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\ethri\source\recipes\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.3.1\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\ethri\source\recipes\android\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.3.1\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\ethri\source\recipes\android\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.3.1\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\ethri\source\recipes\android\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.3.1\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\ethri\source\recipes\android\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.3.1\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\ethri\source\recipes\android\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.3.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\ethri\source\recipes\android\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.3.1\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\ethri\source\recipes\android\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.3.1\AndroidManifest.xml:21:5-23:58
-MERGED from [com.balysv.materialmenu:material-menu:1.5.4] C:\Users\ethri\source\recipes\android\app\build\intermediates\exploded-aar\com.balysv.materialmenu\material-menu\1.5.4\AndroidManifest.xml:8:5-10:41
+INJECTED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml
+MERGED from [:react-native-navigation] C:\Users\ethri\source\recipes\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-navigation] C:\Users\ethri\source\recipes\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] C:\Users\ethri\source\recipes\node_modules\react-native-vector-icons\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] C:\Users\ethri\source\recipes\node_modules\react-native-vector-icons\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-image-picker] C:\Users\ethri\source\recipes\node_modules\react-native-image-picker\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-image-picker] C:\Users\ethri\source\recipes\node_modules\react-native-image-picker\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\21fe95b163158a44179239c4a5297b85\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\21fe95b163158a44179239c4a5297b85\AndroidManifest.xml:7:5-9:41
+MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\material-menu-toolbar-1.5.4.aar\c4782c49d26e4df2fa245a032326fdca\AndroidManifest.xml:8:5-10:41
+MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\material-menu-toolbar-1.5.4.aar\c4782c49d26e4df2fa245a032326fdca\AndroidManifest.xml:8:5-10:41
+MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\ahbottomnavigation-2.0.6.aar\ff2414ffba82b8534dc2a0a8a08d95ae\AndroidManifest.xml:7:5-9:41
+MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\ahbottomnavigation-2.0.6.aar\ff2414ffba82b8534dc2a0a8a08d95ae\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\cc8b268420a2ed0732c1b1fe481cb930\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\cc8b268420a2ed0732c1b1fe481cb930\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\8e248437d21ded2af679c3dba7632d56\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\8e248437d21ded2af679c3dba7632d56\AndroidManifest.xml:21:5-23:78
+MERGED from [:react-native-maps] C:\Users\ethri\source\recipes\node_modules\react-native-maps\lib\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-maps] C:\Users\ethri\source\recipes\node_modules\react-native-maps\lib\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\play-services-maps-10.0.1.aar\5f46f315e8690a0be1cb308292a19262\AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\play-services-maps-10.0.1.aar\5f46f315e8690a0be1cb308292a19262\AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\play-services-base-10.0.1.aar\526f3bfdda46a18327fa7e059f0a6c4d\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\play-services-base-10.0.1.aar\526f3bfdda46a18327fa7e059f0a6c4d\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\play-services-tasks-10.0.1.aar\7bdd2903e5c14c19d9d31c9ecc93e409\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\play-services-tasks-10.0.1.aar\7bdd2903e5c14c19d9d31c9ecc93e409\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.0.1.aar\91dff245856b133a3936212881f566c0\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.0.1.aar\91dff245856b133a3936212881f566c0\AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:transition:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\798b5d647a0c51ed577ef135fe8d4641\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\798b5d647a0c51ed577ef135fe8d4641\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\b620f661abfd9db611e8bb62ff445a88\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\b620f661abfd9db611e8bb62ff445a88\AndroidManifest.xml:21:5-23:54
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\textlayoutbuilder-1.0.0.aar\5450d557646ff097bb8a885c83e1a473\AndroidManifest.xml:14:5-16:41
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\textlayoutbuilder-1.0.0.aar\5450d557646ff097bb8a885c83e1a473\AndroidManifest.xml:14:5-16:41
+MERGED from [com.facebook.fresco:fresco:1.3.0] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\fresco-1.3.0.aar\d2163e278dfc34745e25a63edc631c14\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.3.0] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\fresco-1.3.0.aar\d2163e278dfc34745e25a63edc631c14\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-1.3.0.aar\30297dc5d0c344a9ae5ce98d05e6baa2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-1.3.0.aar\30297dc5d0c344a9ae5ce98d05e6baa2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.1.0] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\soloader-0.1.0.aar\87cc9c5894cb217845d3118917293f1e\AndroidManifest.xml:2:3-70
+MERGED from [com.facebook.soloader:soloader:0.1.0] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\soloader-0.1.0.aar\87cc9c5894cb217845d3118917293f1e\AndroidManifest.xml:2:3-70
+MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\android-maps-utils-0.5.aar\09fe57921436fc66ef926bc6f66f1124\AndroidManifest.xml:5:5-43
+MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\android-maps-utils-0.5.aar\09fe57921436fc66ef926bc6f66f1124\AndroidManifest.xml:5:5-43
+MERGED from [com.facebook.fresco:drawee:1.3.0] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\drawee-1.3.0.aar\8a762df0c57c3a7c9fd0caf07a3ac753\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.3.0] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\drawee-1.3.0.aar\8a762df0c57c3a7c9fd0caf07a3ac753\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.3.0.aar\fd91963640f8f58fa6a06e1067e075eb\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.3.0.aar\fd91963640f8f58fa6a06e1067e075eb\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.3.0.aar\686a8887533dc5c4d5554ffebae83859\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.3.0.aar\686a8887533dc5c4d5554ffebae83859\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.3.0] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\fbcore-1.3.0.aar\e63af260e7c2af057858c17137fe908c\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.3.0] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\fbcore-1.3.0.aar\e63af260e7c2af057858c17137fe908c\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\60de521326f9e8173640c2bc54f8aca3\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\60de521326f9e8173640c2bc54f8aca3\AndroidManifest.xml:20:5-43
+MERGED from [com.balysv.materialmenu:material-menu:1.5.4] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\material-menu-1.5.4.aar\14969bcebb4b3056f87e11ac0cca82f7\AndroidManifest.xml:8:5-10:41
+MERGED from [com.balysv.materialmenu:material-menu:1.5.4] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\material-menu-1.5.4.aar\14969bcebb4b3056f87e11ac0cca82f7\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\b8ae28d944d7d28fb33b961de881453e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\b8ae28d944d7d28fb33b961de881453e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\81aaccbdbc9f76c0deb1d78826ee3314\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\81aaccbdbc9f76c0deb1d78826ee3314\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\0f907d860c222d09dc8252e9bb494a8f\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\0f907d860c222d09dc8252e9bb494a8f\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\b9eec1b6582b4ddc0306ac7f5c9e834c\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\b9eec1b6582b4ddc0306ac7f5c9e834c\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\37a132af3709b0683bf7ce25187e6fe1\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\37a132af3709b0683bf7ce25187e6fe1\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\596e94da2e8b46daa4f0f6aa53221860\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\596e94da2e8b46daa4f0f6aa53221860\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\ae722ae4e47695f33f65ca63a32bf891\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\ae722ae4e47695f33f65ca63a32bf891\AndroidManifest.xml:21:5-23:58
+INJECTED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml
 	tools:overrideLibrary
-		ADDED from [com.android.support:design:25.3.1] C:\Users\ethri\source\recipes\android\app\build\intermediates\exploded-aar\com.android.support\design\25.3.1\AndroidManifest.xml:23:9-59
+		ADDED from [com.android.support:design:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\cc8b268420a2ed0732c1b1fe481cb930\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
 		INJECTED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
 		INJECTED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml
 activity#com.reactnativenavigation.controllers.NavigationActivity
-ADDED from [myrecipes:react-native-navigation:unspecified] C:\Users\ethri\source\recipes\android\app\build\intermediates\exploded-aar\myrecipes\react-native-navigation\unspecified\AndroidManifest.xml:12:9-14:86
+ADDED from [:react-native-navigation] C:\Users\ethri\source\recipes\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:12:9-14:86
 	android:configChanges
-		ADDED from [myrecipes:react-native-navigation:unspecified] C:\Users\ethri\source\recipes\android\app\build\intermediates\exploded-aar\myrecipes\react-native-navigation\unspecified\AndroidManifest.xml:14:13-83
+		ADDED from [:react-native-navigation] C:\Users\ethri\source\recipes\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:13-83
 	android:name
-		ADDED from [myrecipes:react-native-navigation:unspecified] C:\Users\ethri\source\recipes\android\app\build\intermediates\exploded-aar\myrecipes\react-native-navigation\unspecified\AndroidManifest.xml:13:13-84
-android:uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-IMPLIED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
-android:uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
-android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE
+		ADDED from [:react-native-navigation] C:\Users\ethri\source\recipes\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:13:13-84
+provider#com.imagepicker.FileProvider
+ADDED from [:react-native-image-picker] C:\Users\ethri\source\recipes\node_modules\react-native-image-picker\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:12:9-20:20
+	android:grantUriPermissions
+		ADDED from [:react-native-image-picker] C:\Users\ethri\source\recipes\node_modules\react-native-image-picker\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:16:13-47
+	android:authorities
+		ADDED from [:react-native-image-picker] C:\Users\ethri\source\recipes\node_modules\react-native-image-picker\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:13-60
+	android:exported
+		ADDED from [:react-native-image-picker] C:\Users\ethri\source\recipes\node_modules\react-native-image-picker\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:13-37
+	android:name
+		ADDED from [:react-native-image-picker] C:\Users\ethri\source\recipes\node_modules\react-native-image-picker\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:13:13-56
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:react-native-image-picker] C:\Users\ethri\source\recipes\node_modules\react-native-image-picker\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:17:13-19:58
+	android:resource
+		ADDED from [:react-native-image-picker] C:\Users\ethri\source\recipes\node_modules\react-native-image-picker\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:19:17-55
+	android:name
+		ADDED from [:react-native-image-picker] C:\Users\ethri\source\recipes\node_modules\react-native-image-picker\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:18:17-67
 meta-data#android.support.VERSION
-ADDED from [com.android.support:design:25.3.1] C:\Users\ethri\source\recipes\android\app\build\intermediates\exploded-aar\com.android.support\design\25.3.1\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\ethri\source\recipes\android\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.3.1\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:transition:25.3.1] C:\Users\ethri\source\recipes\android\app\build\intermediates\exploded-aar\com.android.support\transition\25.3.1\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\ethri\source\recipes\android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.3.1\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\ethri\source\recipes\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.3.1\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\ethri\source\recipes\android\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.3.1\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\ethri\source\recipes\android\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.3.1\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\ethri\source\recipes\android\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.3.1\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\ethri\source\recipes\android\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.3.1\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\ethri\source\recipes\android\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.3.1\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\ethri\source\recipes\android\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.3.1\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\ethri\source\recipes\android\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.3.1\AndroidManifest.xml:25:5-27:34
+ADDED from [com.android.support:design:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\cc8b268420a2ed0732c1b1fe481cb930\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\8e248437d21ded2af679c3dba7632d56\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\8e248437d21ded2af679c3dba7632d56\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\798b5d647a0c51ed577ef135fe8d4641\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\798b5d647a0c51ed577ef135fe8d4641\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\b620f661abfd9db611e8bb62ff445a88\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\b620f661abfd9db611e8bb62ff445a88\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\60de521326f9e8173640c2bc54f8aca3\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\60de521326f9e8173640c2bc54f8aca3\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\b8ae28d944d7d28fb33b961de881453e\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\b8ae28d944d7d28fb33b961de881453e\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\81aaccbdbc9f76c0deb1d78826ee3314\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\81aaccbdbc9f76c0deb1d78826ee3314\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\0f907d860c222d09dc8252e9bb494a8f\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\0f907d860c222d09dc8252e9bb494a8f\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\b9eec1b6582b4ddc0306ac7f5c9e834c\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\b9eec1b6582b4ddc0306ac7f5c9e834c\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\37a132af3709b0683bf7ce25187e6fe1\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\37a132af3709b0683bf7ce25187e6fe1\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\596e94da2e8b46daa4f0f6aa53221860\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\596e94da2e8b46daa4f0f6aa53221860\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\ae722ae4e47695f33f65ca63a32bf891\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\ae722ae4e47695f33f65ca63a32bf891\AndroidManifest.xml:25:5-27:34
 	android:value
-		ADDED from [com.android.support:design:25.3.1] C:\Users\ethri\source\recipes\android\app\build\intermediates\exploded-aar\com.android.support\design\25.3.1\AndroidManifest.xml:27:9-31
+		ADDED from [com.android.support:design:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\cc8b268420a2ed0732c1b1fe481cb930\AndroidManifest.xml:27:9-31
 	android:name
-		ADDED from [com.android.support:design:25.3.1] C:\Users\ethri\source\recipes\android\app\build\intermediates\exploded-aar\com.android.support\design\25.3.1\AndroidManifest.xml:26:9-47
+		ADDED from [com.android.support:design:25.3.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\cc8b268420a2ed0732c1b1fe481cb930\AndroidManifest.xml:26:9-47
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from [:react-native-maps] C:\Users\ethri\source\recipes\node_modules\react-native-maps\lib\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:10:5-81
+	android:name
+		ADDED from [:react-native-maps] C:\Users\ethri\source\recipes\node_modules\react-native-maps\lib\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:10:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\play-services-maps-10.0.1.aar\5f46f315e8690a0be1cb308292a19262\AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\play-services-maps-10.0.1.aar\5f46f315e8690a0be1cb308292a19262\AndroidManifest.xml:19:22-76
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\play-services-maps-10.0.1.aar\5f46f315e8690a0be1cb308292a19262\AndroidManifest.xml:21:5-77
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\play-services-maps-10.0.1.aar\5f46f315e8690a0be1cb308292a19262\AndroidManifest.xml:21:19-51
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\play-services-maps-10.0.1.aar\5f46f315e8690a0be1cb308292a19262\AndroidManifest.xml:21:52-75
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\play-services-base-10.0.1.aar\526f3bfdda46a18327fa7e059f0a6c4d\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\play-services-base-10.0.1.aar\526f3bfdda46a18327fa7e059f0a6c4d\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\play-services-base-10.0.1.aar\526f3bfdda46a18327fa7e059f0a6c4d\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\play-services-base-10.0.1.aar\526f3bfdda46a18327fa7e059f0a6c4d\AndroidManifest.xml:19:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.0.1.aar\91dff245856b133a3936212881f566c0\AndroidManifest.xml:20:9-121
+MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\android-maps-utils-0.5.aar\09fe57921436fc66ef926bc6f66f1124\AndroidManifest.xml:8:9-10:69
+MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\android-maps-utils-0.5.aar\09fe57921436fc66ef926bc6f66f1124\AndroidManifest.xml:8:9-10:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.0.1.aar\91dff245856b133a3936212881f566c0\AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\ethri\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.0.1.aar\91dff245856b133a3936212881f566c0\AndroidManifest.xml:20:20-65
+uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml:1:1-32:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from C:\Users\ethri\source\recipes\android\app\src\main\AndroidManifest.xml:1:1-32:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE

@@ -1,4 +1,4 @@
-import { ADD_RECIPE, DELETE_RECIPE } from "../actions/actionTypes";
+import { SET_RECIPES, REMOVE_RECIPE } from "../actions/actionTypes";
 
 const initialState = {
     recipes: []
@@ -6,22 +6,16 @@ const initialState = {
 
 const reducer = (state = initialState, action) => {
     switch (action.type) {
-        case ADD_RECIPE:
+        case SET_RECIPES:
             return {
                 ...state,
-                recipes: state.recipes.concat({
-                    key: `${Math.random()}`, 
-                    name: action.recipeName,
-                    image: {
-                      uri: "https://c1.staticflickr.com/5/4096/4744241983_34023bf303_b.jpg"
-                    }
-                })
+                recipes: action.recipes
             };
-        case DELETE_RECIPE:
+        case REMOVE_RECIPE:
             return {
                 ...state,
                 recipes: state.recipes.filter(recipe => {
-                    return recipe.key !== action.recipeKey;
+                    return recipe.key !== action.key;
                   })
             };
         default:

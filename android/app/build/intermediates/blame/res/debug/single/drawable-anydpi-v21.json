@@ -1,10 +1,10 @@
 [
     {
         "merged": "C:\\Users\\ethri\\source\\recipes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility.xml",
-        "source": "C:\\Users\\ethri\\source\\recipes\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.3.1\\res\\drawable-anydpi-v21\\design_ic_visibility.xml"
+        "source": "C:\\Users\\ethri\\.gradle\\caches\\transforms-1\\files-1.1\\design-25.3.1.aar\\cc8b268420a2ed0732c1b1fe481cb930\\res\\drawable-anydpi-v21\\design_ic_visibility.xml"
     },
     {
         "merged": "C:\\Users\\ethri\\source\\recipes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility_off.xml",
-        "source": "C:\\Users\\ethri\\source\\recipes\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.3.1\\res\\drawable-anydpi-v21\\design_ic_visibility_off.xml"
+        "source": "C:\\Users\\ethri\\.gradle\\caches\\transforms-1\\files-1.1\\design-25.3.1.aar\\cc8b268420a2ed0732c1b1fe481cb930\\res\\drawable-anydpi-v21\\design_ic_visibility_off.xml"
     }
 ]

@@ -1,6 +1,10 @@
 [
     {
+        "merged": "C:\\Users\\ethri\\source\\recipes\\android\\app\\build\\intermediates\\res\\merged\\debug\\xml\\provider_paths.xml",
+        "source": "C:\\Users\\ethri\\source\\recipes\\node_modules\\react-native-image-picker\\android\\build\\intermediates\\packaged_res\\debug\\xml\\provider_paths.xml"
+    },
+    {
         "merged": "C:\\Users\\ethri\\source\\recipes\\android\\app\\build\\intermediates\\res\\merged\\debug\\xml\\preferences.xml",
-        "source": "C:\\Users\\ethri\\source\\recipes\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.55.4\\res\\xml\\preferences.xml"
+        "source": "C:\\Users\\ethri\\.gradle\\caches\\transforms-1\\files-1.1\\react-native-0.55.4.aar\\21fe95b163158a44179239c4a5297b85\\res\\xml\\preferences.xml"
     }
 ]

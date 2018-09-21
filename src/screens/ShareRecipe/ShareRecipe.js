@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import { View, Text, TextInput, Button, StyleSheet, ScrollView, Image } from 'react-native';
+import { View, Text, TextInput, Button, StyleSheet
+  , ScrollView, KeyboardAvoidingView
+  , Image, ActivityIndicator } from 'react-native';
 import { connect } from 'react-redux';
 import { addRecipe } from '../../store/actions/index';
 import MainText from '../../components/UI/MainText/MainText';
@@ -7,10 +9,27 @@ import HeadingText from '../../components/UI/HeadingText/HeadingText';
 import RecipeInput from '../../components/RecipeInput/RecipeInput';
 import PickImage from '../../components/PickImage/PickImage';
 import PickLocation from '../../components/PickLocation/PickLocation';
+import validate from '../../utility/validation';
 
 class ShareRecipeScreen extends Component {
+  static navigatorStyle = {
+    navBarButtonColor: 'orange'
+  };
   state = {
-    recipeName: ""
+    controls: {
+      recipeName: {
+        value: '',
+        valid: false,
+        validationRules: {
+          notEmpty: true
+        },
+        touched: false
+      },
+      location: {
+        value: null,
+        valid: false
+      }
+    }
   };
   constructor(props) {
     super(props);
@@ -27,37 +46,106 @@ class ShareRecipeScreen extends Component {
     }
   };
 
-  recipeNameChangedHandler = val => {
-    this.setState({
-      recipeName: val
+  recipeNameChangedHandler = (key, val) => {
+    let connectedValue = {};
+    connectedValue = {
+      ...connectedValue,
+      equalTo: val
+    };
+    this.setState(prevState => {
+      return {
+        controls: {
+            ...prevState.controls,
+            [key]: {
+                ...prevState.controls[key],
+                value: val,
+                valid: validate(
+                    val, 
+                    prevState.controls[key].validationRules, 
+                    ''
+                ),
+                touched: true
+            }
+        }    
+      }
+    });
+  };
+
+  locationPickedHandler = location => {
+    this.setState(prevState => {
+      return {
+        controls: {
+          ...prevState.controls,
+          location: {
+            value: location,
+            valid: true
+          },
+          image: {
+            value: null,
+            valid: false
+          }
+        }
+      }
+    });
+  };
+
+  imagePickedHandler = image => {
+    this.setState(prevState => {
+      return {
+        controls: {
+          ...prevState.controls,
+          image: {
+            value: image,
+            valid: true
+          }
+        }
+      }
     });
   };
 
   recipeAddedHandler = () => {
-    if (this.state.recipeName.trim() !== "") {
-      this.props.onAddRecipe(this.state.recipeName);
-    }
+    this.props.onAddRecipe(
+      this.state.controls.recipeName.value
+      , this.state.controls.location.value,
+      this.state.controls.image.value
+      );
   };
     render () {
+      let submitButton = (
+        <Button 
+          title='Share the Recipe!'
+          color="#29aaf4"
+          onPress={this.recipeAddedHandler}
+          disabled={
+            !this.state.controls.recipeName.valid
+            || !this.state.controls.location.valid
+            || !this.state.controls.image.valid} />
+      );
+
+      if(this.props.isLoading) {
+        submitButton = <ActivityIndicator />;
+      }
+
         return (
           <ScrollView>
-          <View style={styles.container}>
+          <KeyboardAvoidingView 
+          behavior='padding'
+          style={styles.container}>
             <MainText>
               <HeadingText>
               Share a Recipe
               </HeadingText>
             </MainText>
-            <PickImage />
-            <PickLocation />
+            <PickImage onImagePicked={this.imagePickedHandler} />
+            <PickLocation onLocationPick={this.locationPickedHandler} />
             <RecipeInput 
-              recipeName={this.state.recipeName}
-              onChangeText={this.recipeNameChangedHandler} />
+              recipeData={this.state.controls.recipeName}
+              onChangeText={(val) => this.recipeNameChangedHandler('recipeName', val)}
+             />
             <View style={styles.button}>
-              <Button 
-                title="Share Recipe"
-                onPress={this.recipeAddedHandler} />
+              {submitButton}
             </View>
-          </View>  
+          </KeyboardAvoidingView>  
           </ScrollView>  
         );
     }
@@ -84,10 +172,17 @@ const styles = StyleSheet.create({
   }
 });
 
-const mapDispatchToProps = dispatch => {
+const mapStateToProps = state => {
   return {
-    onAddRecipe: (recipeName) => dispatch(addRecipe(recipeName))
+    isLoading: state.ui.isLoading
   };
 };
 
-export default connect(null, mapDispatchToProps)(ShareRecipeScreen);
+const mapDispatchToProps = dispatch => {
+  return {
+    onAddRecipe: (recipeName, location, image) => 
+      dispatch(addRecipe(recipeName, location, image))
+  };
+};
+
+export default connect(mapStateToProps, mapDispatchToProps)(ShareRecipeScreen);

@@ -1,10 +1,10 @@
 [
     {
         "merged": "C:\\Users\\ethri\\source\\recipes\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_out.xml",
-        "source": "C:\\Users\\ethri\\source\\recipes\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.3.1\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
+        "source": "C:\\Users\\ethri\\.gradle\\caches\\transforms-1\\files-1.1\\design-25.3.1.aar\\cc8b268420a2ed0732c1b1fe481cb930\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
     },
     {
         "merged": "C:\\Users\\ethri\\source\\recipes\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_in.xml",
-        "source": "C:\\Users\\ethri\\source\\recipes\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.3.1\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
+        "source": "C:\\Users\\ethri\\.gradle\\caches\\transforms-1\\files-1.1\\design-25.3.1.aar\\cc8b268420a2ed0732c1b1fe481cb930\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
     }
 ]

@@ -41,10 +41,16 @@ const startTabs = () => {
                     }
                 }
             ],
+            tabsStyle: {
+                tabBarSelectedButtonColor: "orange"
+            },
             drawer: {
                 left: {
                     screen: "my-recipes.SideDrawer"
                 }
+            },
+            appStyle: {
+                tabBarSelectedButtonColor: 'orange'
             }
         });
     });

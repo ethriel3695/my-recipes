@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "my-recipes-216614",
+  "private_key_id": "bfe51157a7c23310cea2112c7ea39186aa575ec0",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDKIq2jr2JoC/T0\n3RYYFs4Z4AhSZ6hhEpaMvYzruXlwn5MNw1Ys3qhzqmhMUPus1bT8HndPJcjkWQlE\nEU0ZQLZneMsOtGITGwM0M7aWpwZNBVQvKkA5/iZrGFJDE5RGTx9rx/gNUL/vMonC\nO9xrr16Yw/i8awVA124U8TpfBOCF/fNAxX4xxaCsjGWos368EIRgT/0ezjYMp5fJ\nQRRRp5sOlZoiHIDxDcg2ji2IKFHEOcNwUZHC+QqfL9PYa5Nz8dRBqDj7L0x23X7y\n1T2wRX9pwEzm8JNPdTft7d/MebAupXoh3uxo4T6hNwFwTr2eaUAObBihRaoyxOsl\nynrGwXl1AgMBAAECggEAB0e/CiPHHySE0afI2qWLDfBh4Ouk2QbGOIBSqb2sjekq\nk3Iuo/Y4d9VyZRVGL9lHw1Vz3KDpnq6zaXLqE0DotYGhizdTIq3h9YQUceRZSeQE\n0J/H8mozGXZcpdfTZlRO7h8AGyT0HefQOGFpkD7ETr2vDsSFuKElJ7aDXmh2Ib1E\nTjTK2YF5ecaX+tX2PwR1JfdM1ncAJNIpZ/3bxIEIyl0UttMG0qo7WDAqfIJ0n1oB\nbWkVwdYNlv9PgKoyvuPu8Ks8iT+3WcaBrqf+hhW+ThXurJ+VmSEyYP4l5mLSN9N0\neI84CiU299QRETJS5ph3UMIVF2PkPhryl/4PkWix3QKBgQD9rVN3OWaWG98T2/B3\n9ZQZHSDP+FZk2oy/9itC2YfNoLKVcHTCZ7a1CODd9/J/T+20iPcz7tckvC0Oj8Vp\ngDn3wpUn3zP2OWRrSxyFum5lKgIKzrsOvO+2XdBq0xlaApBah/H/tJaVR01uOqwV\nfq1sQflpvfyTI09gGP8vZg0INwKBgQDL/IcPuQORwBB1U5Pa7kpDjZESB/Khat7/\ncL/6pIzcUmZRWdHFI6JvPfejP4qmhR3xQBtCMlqS3eikCYuYKd87u18qGCCkbePq\ny+cx+p1A+G5+DmuJDM2qma3uMyKzIBRY+OtLeEXkiCwhlQx7jshfC74TW9e7ilFi\nA5jxC72dswKBgQCz36DdWyA4tA6bwEpkZQfcPuEzVj28SZOf0eefASvgTGAUwqan\n6m6NM3xvKA8U4xID/1J5ypNXAu9X8e3i/v8bhSfKG+R2ZP+lbJ8O28DHjt/f1fKh\nYqr+vsq31HOXdVXyO48G54AW3XY0APpgS3Cg4K7/oa1kj5cK5u6bJ1t6RQKBgDTp\nxH8nlu1vzNUiYPAhb9ImHsN2nFGSz1Wjgakalg9wsGnZyrhAjhodEOefy+92CFZU\nMr3xId2HApnKgBNwiR+NcxoQOCdu+fgl/ErSn4gC6WZ5hxt93ruqMZvgV9fvMlgB\n+ccR489sI0Zyy1Ihr4g4G44Z/NQBBStPk5SzXvRRAoGASYPUISGU7yHComREr2PG\nF/bsaVA7TXPdTW3iHNsvoBQbGXVXLhoVyaYHQ09AQj2jlzUN5i3A4CdXwWMmQpId\n3AVQQmD3XCFb96stHgOGcyA3VjLGstwc9zw6P1ZYBFpSsL8shc0XxMoLCtFMnNp+\n2TqU9izRc9xGqEyfwLj8hrc=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-p14lw@my-recipes-216614.iam.gserviceaccount.com",
+  "client_id": "101628385489490095879",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-p14lw%40my-recipes-216614.iam.gserviceaccount.com"
+}
